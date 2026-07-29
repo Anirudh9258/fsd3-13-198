@@ -1,2 +1,1 @@
-# EventLoop
-js is single threaded,synchronous language 
+ 
