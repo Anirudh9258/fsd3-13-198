@@ -1,6 +1,17 @@
 import readline from 'readline/promises';
+import { writeFile,readFile } from 'fs/promises';
 import { stdin, stdout} from "process";
 
+const FILE ="products.json";
+
+const saveCart=async (cart) => {
+await writeFile(FILE,JSON.stringify(CaretPosition,null,2));
+};
+
+const getCart = async () => {
+const data =await readFile(FILE,"utf-8");
+return JSON.parse(data);
+};
 
 const main = async () => {
     const cin =readline.createInterface({input: stdin,output: stdout});
