@@ -12,6 +12,7 @@ it direct connect with client os rather than browser
 - mkdir()
 - rmdir()
 - reddir()
+ -rm()
 - Metadata/Information
 - stat()
 - lstat()
