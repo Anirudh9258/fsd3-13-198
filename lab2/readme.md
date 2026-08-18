@@ -30,3 +30,19 @@ it direct connect with client os rather than browser
 - unlink()
 - link()
 - syslink()
+
+## CRUD  operation
+Create/insert ,Read/Retrieve,Update,Delete.
+
+## EACH ITEAM(ID,NAEME,PRIZE,QTY)
+update quantity from cart
+## operations
+1)add to cart
+2)show cart
+3)remove form cart
+4)update quantity form cart
+5)checkout
+note- all iteam will be stored in hdd,so after terminated of program we can retreive cart details.
+## Required file 
+crud.js-it contain all the method and entry points
+product.json(javaScript object notation)-it contain the product details in array form
