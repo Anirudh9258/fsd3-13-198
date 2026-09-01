@@ -1,7 +1,8 @@
-import http from 'https'
+import http from "http";
 
 const server = http.createServer((req,res )=> {
-    res.write("<h1>Heloo Client<h1>");
+    res.write("<h1>Heloo Client</h1>");
+    res.write("<h2>ANIRUDH GOD</h2>");
     res.end();
 });
 
