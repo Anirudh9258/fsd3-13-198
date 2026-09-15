@@ -78,3 +78,16 @@ example: '''
             review:'200
             }
               '''
+## headers
+headers is used to tell the client, the type of data send by the server it may be html file,json data plane text file 
+css file anky tokens(for login)
+1. text/plane->text file
+2. text/html-> html content/file
+3. application/json-> json content/file
+4. text/css->stylesheet
+5. application/form-data -> for uploading
+6. application/auth -> for token
+the header can be set by res object at sever side by two ways
+
+7. res.setHeder
+8. 
