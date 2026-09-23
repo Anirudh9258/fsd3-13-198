@@ -88,6 +88,9 @@ css file anky tokens(for login)
 5. application/form-data -> for uploading
 6. application/auth -> for token
 the header can be set by res object at sever side by two ways
-
 7. res.setHeder
-8. 
+
+ Get -> no  parameter pass to the server when we recieve all iteams 
+ post-> to add records we pass the value from body section in json format of api tester (ecoapi)
+ delete-> to delete any product we pass parameter that is id of the product from url 
+ update-> (put/patch) to update any product we pass id from url and data to update from body 
